@@ -1,0 +1,6 @@
+
+add_executable(gtest_example gtest_example1.cc)
+target_link_libraries(gtest_example gtest gtest_main)
+
+add_executable(gbench_example gbench_example1.cc)
+target_link_libraries(gbench_example benchmark benchmark_main)
